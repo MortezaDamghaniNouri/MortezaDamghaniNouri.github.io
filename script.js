@@ -19,7 +19,7 @@ document.getElementById("home").onclick = function()
             <p>
                 During getting my Bachelor of Science degree in Computer Engineering, I strove to acquire some information about Data Mining and Artificial Intelligence in diverse ways.
                 I have passed several AI-related courses, all with A's, and I have practiced this knowledge in a number of <a  onclick="show_projects()" class="non_underline-link blue-btn projects" href="#" >projects</a>.
-                My current <strong>total GPA is 3.82/4</strong> and I got <strong>104 / 120 in TOEFL iBT Test</strong>.
+                My current <strong>total GPA is 3.82 / 4 (18.22 / 20)</strong> and I got <strong>104 / 120 in TOEFL iBT Test</strong>.
                 I ranked as Top 2% among more than 150,000 participants in National Entrance Exam for Undergraduate State Universities in Iran. I was chosen as an outstanding student at Amirkabir
                 University of Technology, and I was eligible to study in two majors simultaneously.
                 Amirkabir University of Technology gave me the opportunity of direct entry for Master of Science (without university entrance exam) in computer engineering.

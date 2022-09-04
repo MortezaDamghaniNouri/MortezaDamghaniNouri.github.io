@@ -35,6 +35,7 @@ document.getElementById("home").onclick = function()
     document.getElementById("experience").style.color = "blue"
     document.getElementById("skills").style.color = "blue"
     document.getElementById("projects").style.color = "blue"
+    document.getElementById("scores").style.color = "blue"
     return false;
 }
 
@@ -74,6 +75,7 @@ document.getElementById("experience").onclick = function()
     document.getElementById("experience").style.color = "black"
     document.getElementById("skills").style.color = "blue"
     document.getElementById("projects").style.color = "blue"
+    document.getElementById("scores").style.color = "blue"
     return false;
 }
 
@@ -114,6 +116,7 @@ function show_projects()
     document.getElementById("experience").style.color = "blue"
     document.getElementById("skills").style.color = "blue"
     document.getElementById("projects").style.color = "black"
+    document.getElementById("scores").style.color = "blue"
     return false;
 }
 
@@ -225,5 +228,43 @@ function show_skills()
     document.getElementById("experience").style.color = "blue"
     document.getElementById("skills").style.color = "black"
     document.getElementById("projects").style.color = "blue"
+    document.getElementById("scores").style.color = "blue"
+    return false;
+}
+
+function show_scores()
+{
+    document.getElementById("content").innerHTML = `
+    <div class="content-header">
+        <h5>The scores of some of the courses which I passed in order to get Bachelor of Science degree are listed here.</h5>
+    </div>
+	<div id="content-text">
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <ul id="tas">
+                    <li>Advanced Programming: 19 / 20 (4 / 4)</li>
+                    <li>Software Engineering: 18.25 / 20 (4 / 4)</li>
+                    <li>Principles of Artificial Intelligence: 18.15 / 20 (4 / 4)</li>
+                    <li>Principles of Computational Intelligence: 20 / 20 (4 / 4)</li>
+                    <li>Data Structures and Algorithms: 18 / 20 (4 / 4)</li>
+                    <li>Signals and Systems: 18 / 20 (4 / 4)</li>
+                    <li>Principles of Database Design: 18.47 / 20 (4 / 4)</li>
+                    <li>Computer Networks: 19.75 / 20 (4 / 4)</li>
+                    <li>Research and Technical Presentation: 18.9 / 20 (4 / 4)</li>
+                    <li>Web Programming: 20 / 20 (4 / 4)</li>
+                    <li>Internet of Things: 20 / 20 (4 / 4)</li>
+                    <li>Cloud Computing: 20 / 20 (4 / 4)</li>
+                    <li>Multimedia Systems: 18.3 / 20 (4 / 4)</li>
+                    <li>Information Security: 18.6 / 20 (4 / 4)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    `
+    document.getElementById("home").style.color = "blue"
+    document.getElementById("experience").style.color = "blue"
+    document.getElementById("skills").style.color = "blue"
+    document.getElementById("projects").style.color = "blue"
+    document.getElementById("scores").style.color = "black"
     return false;
 }

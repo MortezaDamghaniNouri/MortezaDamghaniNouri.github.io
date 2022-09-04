@@ -129,7 +129,7 @@ function show_skills()
             <div class="exp-info">
                 <h5>English Language:</h5>
                 <ul id="tas">
-                    <li>TOEFL iBT Overall Score: 104 (Reading: 27    Listening:26    Speaking: 23    Writing: 28)</li>
+                    <li>TOEFL iBT Overall Score: 104 (Reading: 27, Listening:26, Speaking: 23, Writing: 28)</li>
                 </ul>
             </div>
         </div>
@@ -146,7 +146,79 @@ function show_skills()
                 </ul>
             </div>
         </div>
-        
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Libraries:</h5>
+                <ul id="tas">
+                    <li>TensorFlow (Intermediate)</li>
+                    <li>NLTK (Intermediate)</li>
+                    <li>NumPy (Intermediate)</li>
+                    <li>SKLearn (Intermediate)</li>
+                    <li>Matplotlib (Intermediate)</li>
+                    <li>Scikit-Learn (Intermediate)</li>
+                    <li>Pandas (Intermediate)</li>
+                    <li>Tweepy (Intermediate)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Web Development:</h5>
+                <ul id="tas">
+                    <li>HTML (Intermediate)</li>
+                    <li>CSS (Intermediate)</li>
+                    <li>JavaScript (Intermediate)</li>
+                    <li>Django (Beginner)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Database Systems:</h5>
+                <ul id="tas">
+                    <li>MySQL (Intermediate)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Software:</h5>
+                <ul id="tas">
+                    <li>Microsoft Word (Intermediate)</li>
+                    <li>Microsoft PowerPoint (Intermediate)</li>
+                    <li>Microsoft Excel (Intermediate)</li>
+                    <li>Proteus Design Suite (Intermediate)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Operating Systems:</h5>
+                <ul id="tas">
+                    <li>Windows</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Code Versioning Tools:</h5>
+                <ul id="tas">
+                    <li>Git</li>
+                </ul>
+            </div>
+        </div>
+        <div class="exp-item" id="exp-1">
+            <div class="exp-info">
+                <h5>Miscellaneous:</h5>
+                <ul id="tas">
+                    <li>Capable of working with virtual machines, Docker and distributed systems</li>
+                    <li>Cloud Computing (Intermediate)</li>
+                    <li>Capable of designing database (Intermediate)</li>
+                    <li>Capable of working with UML designing software (Intermediate)</li>
+                </ul>
+            </div>
+        </div>  
     </div>
     `
     document.getElementById("home").style.color = "blue"

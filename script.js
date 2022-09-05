@@ -91,25 +91,30 @@ function show_projects()
             <img class="proj-image" src="data/Sentiment%20Analysis%20Img.png" alt="">
         </div>
     </div>
+    <div class="row">
+        <div class="proj-item " id="BS-thesis">
+            <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Diabetes-Predictor">2) Diabetes Predictor</a></h6>
+        </div>
+    </div>
 	<div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/An-Evolutionary-Game">2) An Evolutionary Game</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/An-Evolutionary-Game">3) An Evolutionary Game</a></h6>
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Puzzle-Solver">3) Puzzle Solver</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Puzzle-Solver">4) Puzzle Solver</a></h6>
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Butter-Bringer-Robot">4) Butter Bringer Robot</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Butter-Bringer-Robot">5) Butter Bringer Robot</a></h6>
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Jpotify">5) Jpotify (a music player program in Java)</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/Jpotify">6) Jpotify (a music player program in Java)</a></h6>
         <img class="proj-image width-90" src="data/Jpotify%20Img.png" alt="">
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/E-Shop_Project_Phase2">6) E-Shop</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/E-Shop_Project_Phase2">7) E-Shop</a></h6>
         <img class="proj-image width-90" src="data/E-Shop%20Img.png" alt="">
     </div>
     <div class="proj-item">
-        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/GitHub-Users-Info">7) GitHub Users' Info</a></h6>
+        <h6><a class="non_underline-link" href="https://github.com/MortezaDamghaniNouri/GitHub-Users-Info">8) GitHub Users' Info</a></h6>
     </div>
     `
     document.getElementById("home").style.color = "blue"

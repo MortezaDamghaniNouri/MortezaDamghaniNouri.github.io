@@ -55,20 +55,7 @@ document.getElementById("experience").onclick = function()
                 </ul>
             </div>
         </div>
-        <div class="exp-item" id="exp-2">
-            <div class="exp-info">
-                <h5>Research and development Intern:</h5>
-                <h6>At <a class="non_underline-link" href="https://en.itrc.ac.ir/" id="home">ICT Research Institute</a> [Winter and Spring 2022]</h6>
-                <ul class="duties">
-                    <li>Worked as a researcher and a programmer for developing machine learning methods under the supervision of Dr. Ehram Safari</li>
-                    <li>Found a <a class="non_underline-link" href="https://www.kaggle.com/bittlingmayer/amazonreviews/version/7?select=train.ft.txt.bz2" id="home">dataset of Amazon products comments</a></li>
-                    <li>Implemented Unigram Naive Bayes, Bigram Naive Bayes, Fully Connected Neural Network and Random Forest machine learning methods by TensorFlow and 
-                    SKLearn libraries in Python programming language</li>
-                    <li>Compared Unigram Naive Bayes, Bigram Naive Bayes, Fully Connected Neural Network and Random Forest machine learning methods in term of 
-                    accuracy for sentiment analysis on Amazon products comments</li> 
-                </ul>
-            </div>
-        </div>
+        
     </div>
     `
     document.getElementById("home").style.color = "blue"
